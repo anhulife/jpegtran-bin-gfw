@@ -1,6 +1,6 @@
 {
   "name": "jpegtran-bin-gfw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jpegtran-bin for gfw",
   "license": "MIT",
   "repository": "anhulife/jpegtran-bin-gfw",
@@ -15,6 +15,7 @@
     "pngquant": "cli.js"
   },
   "scripts": {
+    "postpublish": "cnpm sync jpegtran-bin-gfw",
     "test": "mocha --timeout 20000"
   },
   "files": [
